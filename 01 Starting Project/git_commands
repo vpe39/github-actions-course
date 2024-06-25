@@ -8,3 +8,13 @@ git revert <id> - Revert the changes of commit <id> (by creating a new commit)
 git reset <id> - Undo commit(s) up to commit <id> by deleting commits
 git add . - stage multiple files
 .gitignore - we can add the file names to ignore the files from being staged. 
+git branch - lists branches with a pointer pointing to the current branch. 
+git branch <brName> - creates a new branch
+git checkout <brName> - checkouts to a branch
+git checkout -b <brName> - creates new branch and checksout to it
+git branch -D <brName> - Deletes a branch
+git merge <brName> - merges a branch to the current branch. 
+git remote add  origin <githubURL> - connects local repo to the gitHub repository
+git push - local commits are uploaded to github
+git pull - Github commits are fetched to local repository
+
